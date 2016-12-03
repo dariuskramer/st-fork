@@ -12,6 +12,7 @@ makedepends=('ncurses')
 url="http://st.suckless.org"
 source=("$pkgname-$pkgver.tar.gz")
 md5sums=('b2d06a03f8b1e68d45f9b83f751ae14c')
+groups=('modified')
 
 prepare() {
   cd $srcdir/$pkgname-$pkgver
