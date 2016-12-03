@@ -11,7 +11,7 @@ depends=('libxft' 'libxext' 'xorg-fonts-misc')
 makedepends=('ncurses')
 url="http://st.suckless.org"
 source=("$pkgname-$pkgver.tar.gz")
-md5sums=('98f32ef638c70cf8d22739e65837dd4b')
+md5sums=('b2d06a03f8b1e68d45f9b83f751ae14c')
 
 prepare() {
   cd $srcdir/$pkgname-$pkgver
